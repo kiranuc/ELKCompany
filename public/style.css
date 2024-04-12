@@ -1,0 +1,426 @@
+.home-page {
+    background: url("images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background: transparent;
+}
+
+ul {
+    font-size: 1.2rem;
+}
+
+.nav-items a{
+    font-family: "Concert One", sans-serif;;
+}
+
+.nav-link:hover {
+    color: #4fbbb4;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+.contents {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.moon img {
+    position: absolute;
+    height: 107px;
+    left: 622px;
+    top: 225px;
+}
+
+
+.sky img {
+    position: absolute;
+    height: 400px;
+    top: 114px;
+    left: 450px;
+}
+
+.astronaut img {
+    height: 373px;
+    position: absolute;
+    top: 261px;
+    left: 692px;
+    z-index: 2;
+}
+
+.bucket img {
+    height: 183px;
+    top: 455px;
+    position: absolute;
+    left: 868px;
+}
+
+
+
+
+.elkName img {
+    height: 74px;
+    position: absolute;
+    top: 269px;
+    z-index: 1;
+    left: 350px;
+}
+
+.content-box h1 {
+    position: absolute;
+    top: 42px;
+    left: 465px;
+    font-size: 71px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.app-store img{
+    height: 31px;
+    position: absolute;
+    top: 424px;
+    left: 454px;
+}
+
+.google-play img{
+    position: absolute;
+    height: 43px;
+    top: 419px;
+    left: 342px;
+}
+
+
+.content-box p {
+    position: absolute;
+    top: 367px;
+    z-index: 1;
+    left: 350px;
+    font-size: 21px;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about-page {
+    background: linear-gradient(#ffda3f, #4fbbb4);
+    width: 100%;
+    height: 100dvh;
+}
+
+.about-page p {
+    font-style: oblique;
+    font-weight: 500;
+    color: #3d3e40;
+}
+
+.subscribe {
+    display: flex;
+}
+
+.subscribe input[type="text"] {
+    flex: 1;
+    /* Take up remaining space */
+    margin-right: 10px;
+    /* Add spacing between input and button */
+
+}
+
+.subscribe input {
+    height: 46px;
+    width: 213px;
+    margin-right: 6px;
+}
+
+.user-input {
+    margin-top: 20px;
+}
+
+.text-center {
+    padding-top: 115px;
+    color: antiquewhite;
+    padding-bottom: 20px;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+
+/* Tablet view */
+
+@media only screen and (max-width: 923px) and (min-width: 431px) {
+    .sky img {
+        height: 336px;
+        top: 114px;
+        left: 169px;
+    }
+
+    .elkName img {
+        height: 64px;
+        top: 247px;
+        left: 85px;
+    }
+
+    .astronaut img {
+        height: 317px;
+        top: 261px;
+        left: 341px;
+    }
+
+    .bucket img {
+        height: 181px;
+        top: 409px;
+        position: absolute;
+        left: 488px;
+    }
+
+    .content-box p {
+        position: absolute;
+        top: 316px;
+        z-index: 1;
+        left: 85px;
+        font-size: 19px;
+    }
+
+    .content-box h1 {
+        top: 41px;
+        left: 130px;
+        font-size: 66px;
+    }
+
+    .moon img {
+        position: absolute;
+        height: 85px;
+        left: 317px;
+        top: 192px;
+    }
+
+    .app-store img {
+        height: 31px;
+        position: absolute;
+        top: 405px;
+        left: 193px;
+    }
+    
+    .google-play img {
+        position: absolute;
+        height: 43px;
+        top: 399px;
+        left: 80px;
+    }
+}
+
+@media only screen and (max-width: 431px) and (min-width: 376px) {
+
+    .logo {
+        height: 43px;
+        width: 43px;
+    }
+
+    .content {
+        margin-bottom: -62px;
+    }
+
+    .bucket img {
+        height: 160px;
+        top: 365px;
+        left: 183px;
+    }
+
+    .astronaut img {
+        height: 266px;
+        top: 240px;
+        left: 208px;
+    }
+
+    .sky img {
+        height: 243px;
+        top: 138px;
+        left: 92px;
+    }
+
+
+    .elkName img {
+        height: 50px;
+        top: 236px;
+        left: 23px;
+    }
+
+    .content-box p {
+        top: 299px;
+        left: 26px;
+        font-size: 16px;
+        width: 43%;
+    }
+
+    .moon img {
+        height: 66px;
+        left: 209px;
+        top: 203px;
+    }
+
+    .content-box h1 {
+        top: 75px;
+        left: 35px;
+        font-size: 56px;
+    }
+
+    .app-store img {
+        height: 26px;
+        position: absolute;
+        top: 365px;
+        left: 111px;
+    }
+    
+    .google-play img {
+        position: absolute;
+        height: 36px;
+        top: 360px;
+        left: 17px;
+    }  
+
+    .about-page p {
+        font-size: 19px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .subscribe input {
+        height: 46px;
+        width: 213px;
+        /* padding-left: 44px; */
+        margin-left: 96px;
+        margin-top: -10px;
+    }
+
+    .subscribe button {
+        margin-left: 7px;
+        margin-top: 9px;
+    }
+
+    .subscribe {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 376px) {
+
+    .logo {
+        height: 43px;
+        width: 43px;
+    }
+
+    .contents {
+        margin-bottom: -148px;
+    }
+
+    .content-box p {
+        top: 261px;
+        left: 18px;
+        font-size: 15px;
+        width: 58%;
+    }
+
+    .sky img {
+        height: 180px;
+        top: 138px;
+        left: 67px;
+    }
+
+    .astronaut img {
+        height: 187px;
+        top: 221px;
+        left: 175px;
+    }
+
+    .bucket img {
+        height: 130px;
+        top: 308px;
+        left: 160px;
+    }
+
+    .elkName img {
+        height: 35px;
+        top: 208px;
+        left: 21px;
+    }
+
+    .content-box h1 {
+        top: 93px;
+        left: 44px;
+        font-size: 39px;
+    }
+
+    .content-box p {
+        top: 244px;
+        left: 20px;
+        font-size: 16px;
+        width: 43%;
+    }
+
+    .moon img {
+        height: 51px;
+        left: 160px;
+        top: 194px;
+    }
+
+    .about-page p {
+        font-size: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .subscribe input {
+        height: 41px;
+        width: 195px;
+        /* padding-left: 44px; */
+        margin-left: 53px;
+    }
+
+    .subscribe button {
+        margin-left: auto;
+        margin-top: 10px;
+        height: 41px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .subscribe {
+        display: block;
+    }
+
+    .android {
+        background-color: white;
+    }
+
+    .google-play img{
+        position: absolute;
+        height: 30px;
+        top: 302px;
+        left: 14px;
+    }
+    
+    
+    .app-store img {
+        height: 21px;
+        top: 306px;
+        position: absolute;
+        left: 91px;
+    }
+    
+}
