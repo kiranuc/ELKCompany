@@ -1,0 +1,22 @@
+{
+  "name": "elkfinal",
+  "version": "1.0.0",
+  "description": "ELK_ComingSoon",
+  "main": "app.js",
+  "bin": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
