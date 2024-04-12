@@ -14,9 +14,9 @@ app.use(bodyParser.json());
 
 // PostgreSQL connection pool
 const pool = new Pool({
-  user: 'postgres',
+  user: 'ELKdb',
   host: 'localhost',
-  database: 'ELK',
+  database: 'ELKMail',
   password: 'Thegoatlife24',
   port: 5432,
 });
